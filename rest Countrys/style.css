@@ -1,0 +1,15 @@
+#showing-the-CoutryList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+
+}
+
+.newDivClassName {
+
+    padding: 20px;
+    background: rgb(207, 159, 159);
+    text-align: center;
+    border: 1px solid red;
+    font-size: 30px;
+}

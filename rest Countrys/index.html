@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Countrys API</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- spinner -->
+    <div id="loading-spinner" class="d-flex justify-content-center mb-5 mt-5  d-none">
+        <div class="spinner-border text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <h3 id="errorMSG" class="text-danger d-none">
+    </h3>
+
+    <!-- details card -->
+    <center>
+        <div id="showdetails" class="card mt-5 mb-5" style="width: 18rem;">
+
+        </div>
+    </center>
+    <!-- input box and btn -->
+    <center class="mb-5 container">
+        <input id="inputBox" class="form-control mb-2" value="bangladesh" type="text" required placeholder="search">
+        <button id="btnSubmit" class="btn btn-primary">Submit</button>
+    </center>
+
+
+    <!-- main thing -->
+    <div id="showing-the-CoutryList">
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
